@@ -1,5 +1,9 @@
-<h1>hello</h1>
-
+<h1>CRUD laravel</h1>
 @foreach ($posts as $post)
-    <p>This is user {{ $post->title }}</p>
+<tr>
+    <td> {{ $post->title }}</td>
+    <td> {{ $post->name }}</td>
+    <td> {{ $post->email }}</td>
+</tr>
+
 @endforeach
