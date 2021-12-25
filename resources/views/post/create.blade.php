@@ -9,4 +9,5 @@
     <label for="title">email:</label><br>
     <input type="text" id="email" name="email"><br>
     <input type="submit" value="Submit">
+    <input type="submit" value="Submit">
 </form>
